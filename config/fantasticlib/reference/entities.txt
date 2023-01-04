@@ -81,6 +81,12 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+quark:chest_passenger
+quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -89,8 +95,6 @@ quark:ashen
 quark:pirate
 quark:wraith
 quark:gravisand
-quark:chest_passenger
-quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -98,10 +102,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 bibliocraft:biblioseat
 combustfish:thrown_combustive_cod
 combustfish:golden_hook

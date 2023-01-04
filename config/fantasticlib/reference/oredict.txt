@@ -154,11 +154,11 @@ woolWhite
 blockGlassWhite
 paneGlassWhite
 bookshelf
+tallow
 mushroomAny
 buttonWood
 gemEnderBiotite
 materialStoneTool
-tallow
 stoneBasalt
 stoneJasper
 stoneSlate
@@ -592,8 +592,8 @@ bow
 bowDiamond
 bowGold
 bowIron
-stonePolished
-plankStained
+blockCandle
+pressurePlateWood
 stoneJasperPolished
 stoneSlatePolished
 stoneBrimstonePolished
@@ -601,8 +601,8 @@ stonePermafrostPolished
 blockPrismarineElderBrick
 blockPrismarineElderDark
 shardGlass
-blockCandle
-pressurePlateWood
+stonePolished
+plankStained
 blockSlimeCyan
 blockSlimeMagenta
 blockSlimeYellow
