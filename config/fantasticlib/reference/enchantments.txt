@@ -33,8 +33,11 @@ openblocks:last_stand
 openblocks:flim_flam
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
+capsule:recall
 cqrepoured:lightning_protection
 cqrepoured:spectral
+nyx:lunar_edge
+nyx:lunar_shield
 parry:parry
 soulshardsrespawn:soul_stealer
 spartanshields:ssenchspikes

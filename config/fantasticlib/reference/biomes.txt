@@ -60,6 +60,15 @@ minecraft:mutated_savanna_rock
 minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
+pvj:prairie
+pvj:redwoods
+pvj:redwood_peaks
+pvj:willow_swamp
+pvj:boreal_forest
+pvj:snowy_boreal_forest
+pvj:aspen_grove
+pvj:overgrown_spires
+pvj:blossoming_fields
 twilightforest:twilight_lake
 twilightforest:twilight_forest
 twilightforest:dense_twilight_forest

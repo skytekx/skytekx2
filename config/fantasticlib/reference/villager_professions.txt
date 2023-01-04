@@ -5,4 +5,5 @@ minecraft:smith
 minecraft:butcher
 minecraft:nitwit
 openblocks:radio
+chococraftplus:stablehand
 oreberries:tinker

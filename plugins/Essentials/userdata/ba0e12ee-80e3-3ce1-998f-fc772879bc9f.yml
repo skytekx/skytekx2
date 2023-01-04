@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1672742085818
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672787957167
+  login: 1672787764672
+  kits:
+    tools: 1672742104252
+money: '0'
+last-account-name: kleberboy
+logoutlocation:
+  world: c85e2d2d-7d08-4f8d-b253-5cf2d106637b
+  world-name: world
+  x: 93.30932937971934
+  y: 64.0
+  z: 253.23798844841642
+  yaw: -77.84998321533203
+  pitch: 2.0999486446380615
+lastlocation:
+  world: c85e2d2d-7d08-4f8d-b253-5cf2d106637b
+  world-name: world
+  x: -57.0
+  y: 65.0
+  z: 261.0
+  yaw: 0.0
+  pitch: 0.0

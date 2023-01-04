@@ -35,6 +35,7 @@ quark:black
 quark:white
 quark:curse
 quark:danger_sight
+cqrepoured:twohanded
 twilightforest:frosted
 tconstruct:carry
 tconstruct:enderference

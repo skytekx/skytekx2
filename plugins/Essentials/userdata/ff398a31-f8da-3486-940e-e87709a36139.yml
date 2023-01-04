@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672799241846
+  login: 1672798986164
+  kits:
+    tools: 1672793324485
+money: '0'
+last-account-name: EvilAntiSmiley
+logoutlocation:
+  world: 65d51e63-2af9-45a3-a100-7fff0b1f3914
+  world-name: world
+  x: -1183.5693133151865
+  y: 71.0
+  z: -279.87308588239796
+  yaw: 33.60009765625
+  pitch: -7.200002670288086
+lastlocation:
+  world: 65d51e63-2af9-45a3-a100-7fff0b1f3914
+  world-name: world
+  x: -744.0
+  y: 64.0
+  z: 34.0
+  yaw: 0.0
+  pitch: 0.0
