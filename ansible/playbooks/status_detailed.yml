@@ -2,7 +2,7 @@
 - hosts: all
   gather_facts: no
   vars_files:
-    - ~/vault.yml
+    - ../vault.yml
 
   tasks:
     - name: Check if service unit nginx is running

@@ -2,7 +2,7 @@
 - hosts: all
   become: true
   vars_files:
-    - ~/vault.yml
+    - ../vault.yml
 
   tasks:
     - name: Disable ssh password login

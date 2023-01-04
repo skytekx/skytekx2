@@ -2,7 +2,7 @@
 - name: Deploy minecraft
   hosts: all
   vars_files:
-    - ~/vault.yml
+    - ../vault.yml
 
   pre_tasks:
     - name: Add basic configuration
@@ -28,3 +28,34 @@
         src: /opt/minecraft-server/build/mcrcon/mcrcon
         dest: /usr/local/bin/
         mode: '0755'
+    - name: Git clone skytekx server
+      become: true
+      git:
+        repo: https://github.com/skytekx/skytekx2-1122-server.git
+        dest: /opt/minecraft-server/server/skytekx2-server
+        clone: yes
+        update: yes
+    - name: Update ownership
+      become: true
+      file: 
+        dest: /opt/minecraft-server/
+        owner: minecraft
+        group: minecraft
+        mode: u=rwX,g=rX,o=rX
+        recurse: yes
+    - name: Create a symbolic link for systemd
+      become: true
+      file:
+        src: /opt/minecraft-server/server/skytekx2-server/systemd/skytekx2.service
+        dest: /etc/systemd/system/skytekx2.service
+        state: link
+    - name: Force systemd to reread configs (2.4 and above)
+      become: true
+      systemd:
+        daemon_reload: yes
+    - name: Start adn enable skytekx2 service
+      become: true
+      systemd:
+        state: started
+        enabled: yes
+        name: skytekx2

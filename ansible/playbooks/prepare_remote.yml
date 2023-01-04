@@ -1,7 +1,7 @@
 ---
 - hosts: all
   vars_files:
-    - ~/vault.yml
+    - ../vault.yml
 
   pre_tasks:
     - name: Add basic configuration
@@ -49,7 +49,7 @@
       package:
         name: "gcc"
         state: present
-    - name: Install gcc
+    - name: Install make
       package:
         name: "make"
         state: present
