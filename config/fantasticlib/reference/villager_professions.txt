@@ -4,6 +4,11 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
+ic2:industrialengineer
 openblocks:radio
 chococraftplus:stablehand
 oreberries:tinker
+railcraft:trackman
+extrautils2:alchemist
+extrautils2:red_mechanic
+extrautils2:shady_merchant

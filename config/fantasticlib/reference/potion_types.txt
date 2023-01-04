@@ -35,6 +35,9 @@ minecraft:strong_strength
 minecraft:weakness
 minecraft:long_weakness
 minecraft:luck
+railcraft:creosote
+railcraft:long_creosote
+railcraft:strong_creosote
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -46,6 +49,13 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
+enderio:floating
+enderio:strong_floating
+enderio:long_floating
+enderio:confusion
+enderio:long_confusion
+enderio:withering
+enderio:long_withering
 cofhcore:haste
 cofhcore:haste+
 cofhcore:haste2
@@ -114,3 +124,13 @@ cofhcore:unluck2+
 cofhcore:unluck3+
 cofhcore:wither2+
 cofhcore:wither3+
+extrautils2:xu2.doom
+extrautils2:xu2.gravity
+extrautils2:xu2.gravity.long
+extrautils2:xu2.second.chance
+extrautils2:xu2.greek.fire
+extrautils2:oily
+extrautils2:xu2.fizzy.lifting
+extrautils2:xu2.relapse
+extrautils2:xu2.love
+extrautils2:xu2.purging

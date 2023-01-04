@@ -1,24 +1,24 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-NerdyWhiteGuy
-Belathus
-Peregrinus11
-Luvely
 Riley
-Hooley
-Jessie Sims
-AdaraChristine
-WaterMoon
-Pongo Sapiens
-Ivy_
-Spencer Gilbert
-BrÃ¸nsted
-Ncc1702
-DreamThorn
-NickT
-Phillip Swearingain
-Genryu
+Peregrinus11
 SquidDev
+Hooley
+Quaternary
 Zuniroa
+Pongo Sapiens
+NickT
+Genryu
+Jessie Sims
+Phillip Swearingain
+AdaraChristine
+BrÃ¸nsted
+DreamThorn
+Ivy_
+Belathus
+WaterMoon
+Spencer Gilbert
+Ncc1702
+NerdyWhiteGuy
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
@@ -26,14 +26,18 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[10:crafttweaker]: loot/thp.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[10:crafttweaker]: thp_changes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[10:crafttweaker]: thp_craftable_starting_gear.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Advanced Solar Panels.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: loot/thp_modded_chests.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: loot/thp_vanilla_chests.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Misc.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Recipe Fixes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
 [INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[10:crafttweaker]: loot/thp.zs}
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423: Could not resolve <quark : ender_watcher>
 [INITIALIZATION][SERVER][INFO] Created new table 'thp_loot_common'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:thp_loot_common
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:thp_loot_common'
@@ -751,6 +755,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#184' for addition to pool 'thp2' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#185' for addition to pool 'thp2' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:thp_loot_uncommon
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
@@ -859,7 +864,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:thp_loot_uncommon'
 [INITIALIZATION][SERVER][INFO] Created new table 'thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:thp_loot_rare
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:thp_loot_rare'
@@ -1219,6 +1223,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#184' for addition to pool 'thp2' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#185' for addition to pool 'thp2' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:thp_loot_rare
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
@@ -1327,7 +1332,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:thp_loot_rare'
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[10:crafttweaker]: thp_changes.zs}
 [INITIALIZATION][SERVER][INFO] Translating tile.oak_bookshelf.name to Oak Bookshelf
 [INITIALIZATION][SERVER][INFO] Retrieved pool main from table minecraft:entities/cow
@@ -1347,6 +1351,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <birdsnests:birdsnest>: "Right click to examine"
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[10:crafttweaker]: thp_craftable_starting_gear.zs}
 [INITIALIZATION][SERVER][INFO] Adding tooltip for <akashictome:tome>.withTag({"akashictome:data": {tconstruct: {id: "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, twilightforest: {id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "twilightforest", "patchouli:book": "twilightforest:guide"}, Damage: 0 as short}, chococraftplus: {id: "chococraftplus:chocopedia", Count: 1 as byte, tag: {"akashictome:definedMod": "chococraftplus"}, Damage: 0 as short}, openblocks: {id: "openblocks:info_book", Count: 1 as byte, tag: {"akashictome:definedMod": "openblocks"}, Damage: 0 as short}}}): "All guides included"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Advanced Solar Panels.zs}
+[INITIALIZATION][SERVER][INFO] Translating tile.blockSolarLV.name to Advanced Solar Panel
+[INITIALIZATION][SERVER][INFO] Translating tile.blockSolarMV.name to Hybrid Solar Panel
+[INITIALIZATION][SERVER][INFO] Translating tile.blockSolarHV.name to Ultimate Hybrid Solar Panel
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: loot/thp_modded_chests.zs}
 [INITIALIZATION][SERVER][INFO] Queued pool nest_loot of table birdsnests:nest_loot for removal
 [INITIALIZATION][SERVER][INFO] Queued pool loot of table cqrepoured:chests/food for removal
@@ -1933,6 +1941,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table quark:chests/pirate_chest
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
@@ -2041,7 +2050,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'quark:chests/pirate_chest'
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: loot/thp_vanilla_chests.zs}
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/simple_dungeon
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/simple_dungeon'
@@ -2267,6 +2275,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/simple_dungeon
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
@@ -2375,7 +2384,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/simple_dungeon'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/abandoned_mineshaft
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/abandoned_mineshaft'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/abandoned_mineshaft'
@@ -2823,6 +2831,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
@@ -2931,7 +2940,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/jungle_temple'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/desert_pyramid
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/desert_pyramid'
@@ -3156,6 +3164,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
@@ -3264,7 +3273,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/desert_pyramid'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/village_blacksmith
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/village_blacksmith'
@@ -3489,6 +3497,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/village_blacksmith
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
@@ -3597,7 +3606,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/village_blacksmith'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/end_city_treasure
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/end_city_treasure'
@@ -3822,6 +3830,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
@@ -3930,7 +3939,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/end_city_treasure'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/stronghold_library
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/stronghold_library'
@@ -4155,6 +4163,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
@@ -4263,7 +4272,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/stronghold_library'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/stronghold_crossing
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/stronghold_crossing'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/stronghold_crossing'
@@ -4934,6 +4942,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
@@ -5042,7 +5051,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/woodland_mansion'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/nether_bridge
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/nether_bridge'
@@ -5267,6 +5275,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
@@ -5375,7 +5384,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/nether_bridge'
 [INITIALIZATION][SERVER][INFO] Queued pool thp1 for addition to table minecraft:chests/igloo_chest
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp1' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp1' of table 'minecraft:chests/igloo_chest'
@@ -5600,6 +5608,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#154' for addition to pool 'thp2' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#155' for addition to pool 'thp2' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued pool thp3 for addition to table minecraft:chests/igloo_chest
+[INITIALIZATION][SERVER][ERROR] loot/thp.zs:423 > stack cannot be null
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
@@ -5708,10 +5717,32 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#106' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#107' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#108' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#109' for addition to pool 'thp3' of table 'minecraft:chests/igloo_chest'
 [INITIALIZATION][SERVER][INFO] Queued pool growthcraft_hops:loot_table_simple_dungeon of table minecraft:chests/simple_dungeon for removal
 [INITIALIZATION][SERVER][INFO] Queued pool growthcraft_hops:loot_table_simple_dungeon of table minecraft:chests/abandoned_mineshaft for removal
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 867ms
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Misc.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir:1>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir:2>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir:3>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir:4>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalexpansion:reservoir:32000>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <xreliquary:emperor_chalice>: "In some recipes this item is completely used!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <bibliocraft:paintingframeflat>: "Do not hotswap canvas!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <bibliocraft:paintingcanvas>: "Do not hotswap canvas!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <openblocks:xp_shower>: "Do not place on top or bottom of tank!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <galacticraftcore:fluid_tank>: "Use other tanks, this one dupes fluids."
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Recipe Fixes.zs}
+[INITIALIZATION][SERVER][INFO] Removing Skyroot Bucket from ore dictionary entry listAllmilk
+[INITIALIZATION][SERVER][INFO] Removing Skyroot Bucket from ore dictionary entry milkBucket
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring:1>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring:2>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring:3>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring:4>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:angelring:5>: "You can find this in dungeons as loot!"
+[INITIALIZATION][SERVER][INFO] Copying contents of ore dictionary entry blockFuelCoke to blockCoke
+[INITIALIZATION][SERVER][INFO] Mirroring blockCoke to blockFuelCoke
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1300ms
 [POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "minecraft:orange_wool"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "minecraft:magenta_wool"
@@ -5753,6 +5784,31 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rope Coil with name ct_shaped945646522
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Akashic Tome with name ct_shapeless-2032374983
 [POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Hexxit II Links with name ct_shapeless-1497664143
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ultimate Hybrid Solar Panel with name ct_shaped-2146090735
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Hybrid Solar Panel with name ct_shaped-2053115732
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Solar Panel with name ct_shaped1220254993
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Electric Locomotive with name ct_shaped759774641
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Fresh Water with name ct_shapeless-138608284
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless540666103
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped1102558036
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped841126394
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped1548281430
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped1115423493
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless509854659
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless1211454533
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless-191745215
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless159054722
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Angel Ring with name ct_shapeless860654596
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Steel Ingot with name ct_shapeless614609595
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for LV Energy Producer (IC2) with name ct_shaped1839866599
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for MV Energy Producer (IC2) with name ct_shaped746560987
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for HV Energy Producer (IC2) with name ct_shaped1101175249
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for EV Energy Producer (IC2) with name ct_shaped2093906246
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for IV Energy Producer (IC2) with name ct_shaped1510556937
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <ic2:itemmisc:53>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <ic2:itemmisc:53>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Applying MrCrayfish's Furniture Mod changes...
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
@@ -5791,353 +5847,3 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/simple_dungeon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/desert_pyramid
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/igloo_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table birdsnests:nest_loot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/village_blacksmith
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_crossing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table quark:chests/pirate_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/nether_bridge
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/jungle_temple
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_corridor
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/end_city_treasure
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/stronghold_library
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:chests/woodland_mansion
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:thp_loot_rare
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:thp_loot_rare
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:thp_loot_rare
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:thp_loot_uncommon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:thp_loot_uncommon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp3 to table minecraft:thp_loot_uncommon
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp1 to table minecraft:thp_loot_common
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool thp2 to table minecraft:thp_loot_common
