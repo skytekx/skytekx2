@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672841512392
+  login: 1672841240775
+money: '0'
+lastlocation:
+  world: 8c4f8a05-79f6-40ab-8538-70471be27cc9
+  world-name: world
+  x: -46.5
+  y: 64.0
+  z: 201.5
+  yaw: 0.0
+  pitch: 0.0
+last-account-name: supi1290
+logoutlocation:
+  world: 8c4f8a05-79f6-40ab-8538-70471be27cc9
+  world-name: world
+  x: -46.73400204903914
+  y: 69.7531999805212
+  z: 192.570062662251
+  yaw: 150.60003662109375
+  pitch: 13.950005531311035

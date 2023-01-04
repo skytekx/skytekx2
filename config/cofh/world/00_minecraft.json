@@ -148,11 +148,11 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 9
 			},
-			"cluster-count": 40,
+			"cluster-count": 20,
 			"min-height": 0,
-			"max-height": 128,
+			"max-height": 64,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -169,11 +169,11 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 9
 			},
-			"cluster-count": 8,
+			"cluster-count": 2,
 			"min-height": 0,
-			"max-height": 128,
+			"max-height": 32,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -192,9 +192,9 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 40,
+			"cluster-count": 8,
 			"min-height": 0,
-			"max-height": 128,
+			"max-height": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -211,11 +211,11 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 8
 			},
-			"cluster-count": 6,
+			"cluster-count": 1,
 			"min-height": 0,
-			"max-height": 128,
+			"max-height": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -232,11 +232,11 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 7
 			},
-			"cluster-count": 8,
-			"center-height": 64,
-			"spread": 64,
+			"cluster-count": 1,
+			"center-height": 16,
+			"spread": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -260,7 +260,7 @@
 			},
 			"cluster-count": 20,
 			"min-height": 32,
-			"max-height": 128,
+			"max-height": 80,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
@@ -296,9 +296,12 @@
 				"material": "minecraft:stone",
 				"cluster-size": 1
 			},
-			"cluster-count": 7,
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
 			"min-height": 4,
-			"max-height": 128,
+			"max-height": 28,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
