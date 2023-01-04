@@ -1,0 +1,65 @@
+---
+- hosts: all
+  vars_files:
+    - ~/vault.yml
+
+  pre_tasks:
+    - name: Add basic configuration
+      shell: |
+        set -ex
+        echo 'craftwork.local' > /etc/hostname
+        localectl set-locale LANG=en_US.UTF-8
+        ln -sfn /usr/share/zoneinfo/UTC /etc/localtime
+    - name: Install epel (Extra Packages for Enterprise Linux)
+      shell: |
+        set -ex
+        dnf distro-sync -y
+        #subscription-manager repos --enable codeready-builder-for-rhel-9-$(arch)-rpms
+        dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
+        dnf install epel-release -y
+        dnf install epel-release -y
+
+  tasks:
+    - name: Install podman
+      package:
+        name: "podman"
+        state: present
+    - name: Install pip3
+      package:
+        name: "python3-pip"
+        state: present
+    - name: Upgrade pip
+      pip:
+        name: pip
+        extra_args: --upgrade
+    - name: Install cryptography python package
+      pip:
+        name: cryptography
+    - name: Disable ssh password login
+      lineinfile:
+        dest: /etc/ssh/sshd_config
+        regexp: "^PasswordAuthentication"
+        line: "PasswordAuthentication no"
+        state: present
+    - name: Install java
+      package:
+        name: "java-1.8.0-openjdk-headless"
+        state: present
+    - name: Install gcc
+      package:
+        name: "gcc"
+        state: present
+    - name: Install gcc
+      package:
+        name: "make"
+        state: present
+    - name: Install git
+      package:
+        name: "git"
+        state: present
+
+  post_tasks:
+    - name: Restart sshd
+      systemd:
+        name: sshd
+        state: restarted

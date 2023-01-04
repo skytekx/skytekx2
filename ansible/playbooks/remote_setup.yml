@@ -1,0 +1,10 @@
+---
+- name: Create remote user
+  import_playbook: adduser.yml
+  vars:
+    user:
+      - ansible
+      - minecraft
+
+- name: Prepare remote host
+  import_playbook: prepare_remote.yml

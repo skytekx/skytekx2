@@ -1,0 +1,30 @@
+---
+- name: Deploy minecraft
+  hosts: all
+  vars_files:
+    - ~/vault.yml
+
+  pre_tasks:
+    - name: Add basic configuration
+      become: true
+      shell: |
+        set -ex
+        mkdir -p /opt/minecraft-server/{backup/server,build/mcrcon,server}
+    - name: Git clone mcrcon
+      become: true
+      ansible.builtin.git:
+        repo: https://github.com/Tiiffi/mcrcon.git
+        dest: /opt/minecraft-server/build/mcrcon
+        clone: yes
+        update: yes
+    - name: Build the default target
+      become: true
+      make:
+        chdir: /opt/minecraft-server/build/mcrcon
+    - name: Install mcrcon
+      become: true
+      copy:
+        remote_src: true
+        src: /opt/minecraft-server/build/mcrcon/mcrcon
+        dest: /usr/local/bin/
+        mode: '0755'
