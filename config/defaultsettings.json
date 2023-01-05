@@ -1,0 +1,15 @@
+{
+  "version": "2.2.4",
+  "prevVersion": "2.2.0",
+  "initPopup": false,
+  "exportMode": false,
+  "generatedBy": "bc1938ac-1d75-4b52-9365-393bd8b3cccc",
+  "activeConfigs": [],
+  "hashes": {
+    "Default/servers.dat": "b5d9cd864a74034c0e5b024cfe346a2d",
+    "Default/keys.txt": "1ecf67a91d754eefb5802b7e87e81aee",
+    "Default/options.txt": "8f1e00f9a0b7b9c2a067a0f67b23f781"
+  },
+  "mainProfile": "Default",
+  "initially_created": "2.12.2021 16:08:45"
+}
