@@ -10,13 +10,14 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -30,13 +31,14 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 8,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -55,13 +57,14 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 1,
+			"min-height": 0,
 			"max-height": 80,
-			"retrogen": "true",
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -80,13 +83,14 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 1,
+			"min-height": 0,
 			"max-height": 80,
-			"retrogen": "true",
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -105,13 +109,14 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 1,
+			"min-height": 0,
 			"max-height": 80,
-			"retrogen": "true",
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -122,16 +127,17 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 11
+				"cluster-size": 17
 			},
-			"cluster-count": 30,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -142,16 +148,17 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 11
+				"cluster-size": 8
 			},
-			"cluster-count": 25,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"cluster-count": 40,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -162,16 +169,17 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 8
 			},
-			"cluster-count": 17,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -182,16 +190,17 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 8
 			},
-			"cluster-count": 17,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"cluster-count": 40,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -202,16 +211,17 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 7
 			},
-			"cluster-count": 15,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -222,16 +232,17 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 6
 			},
-			"cluster-count": 15,
-			"center-height": 80,
-			"spread": 80,
-			"retrogen": "true",
+			"cluster-count": 8,
+			"center-height": 64,
+			"spread": 64,
+			"retrogen": false,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -245,12 +256,12 @@
 					"name": "gold_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 9
 			},
 			"cluster-count": 20,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -283,19 +294,31 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 3
+				"cluster-size": 1
 			},
-			"cluster-count": {
-				"min": 5,
-				"max": 8
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+							"mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees"
+						]
+					}
+				]
 			},
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
-			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-1,
 					1
 				]
 			}
@@ -311,12 +334,12 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 9
 			},
 			"cluster-count": 7,
-			"min-height": 1,
+			"min-height": 0,
 			"max-height": 64,
-			"retrogen": "true",
+			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -346,12 +369,12 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 10
+				"cluster-size": 14
 			},
 			"cluster-count": 16,
-			"min-height": 1,
-			"max-height": 185,
-			"retrogen": "true",
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
