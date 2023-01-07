@@ -378,15 +378,6 @@
     "weight": 100
   },
   {
-    "content": "growthcraft:salt",
-    "amount": {
-      "min": 3,
-      "max": 12
-    },
-    "unitWorth": 10,
-    "weight": 100
-  },
-  {
     "content": "minecraft:bed",
     "amount": {
       "min": 1,
