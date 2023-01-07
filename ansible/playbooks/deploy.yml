@@ -53,7 +53,7 @@
       become: true
       systemd:
         daemon_reload: yes
-    - name: Start adn enable skytekx2 service
+    - name: Start and enable skytekx2 service
       become: true
       systemd:
         state: started
