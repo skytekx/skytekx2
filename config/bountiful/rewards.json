@@ -224,11 +224,6 @@
     "weight": 50
   },
   {
-    "content": "plustic:alumiteingot",
-    "unitWorth": 20,
-    "weight": 100
-  },
-  {
     "content": "xreliquary:mob_ingredient:11",
     "unitWorth": 40,
     "weight": 50
