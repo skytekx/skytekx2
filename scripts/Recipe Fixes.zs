@@ -6,7 +6,12 @@ recipes.addShaped(<railcraft:locomotive_electric>,
 [<thermalfoundation:material:288>, <minecraft:minecart>, <thermalfoundation:material:288>]]);
 
 #Rotten Flesh to Leather Fix
-furnace.addRecipe(leather, rottenflesh);
+furnace.addRecipe(<leather>, <rottenflesh>);
+
+#Bookshelf Recipe Fix
+recipes.addShaped(<minecraft:oak_planks>, <minecraft:oak_planks>, <minecraft:oak_planks>, 
+<book>, <book>, <book>, 
+<minecraft:oak_planks>, <minecraft:oak_planks>, <minecraft:oak_planks>);
 
 #Skyroot Bucket Fix
 val listAllmilk = <ore:listAllmilk>;
