@@ -42,9 +42,7 @@ function populate(lootTable as LootTable, tier as int, extra as bool, single as 
 	thp1.addItemEntry(<tconstruct:nuggets:2>, 40, 1, [Functions.setCount(2, 5)], []);
 	thp1.addItemEntry(<tconstruct:nuggets:4>, 40, 1, [Functions.setCount(2, 5)], []);
 	thp1.addItemEntry(<tconstruct:slime_boots:2>, 12, 1, [Functions.setCount(1, 1)], []);
-	thp1.addItemEntry(<growthcraft_rice:rice>, 35, 1, [Functions.setCount(1, 4)], []);
 	thp1.addItemEntry(<quark:trowel>, 10, 1, [Functions.setCount(1, 1)], []);
-	thp1.addItemEntry(<growthcraft_apples:apple_sapling>, 40, 1, [Functions.setCount(1, 1)], []);
 	thp1.addItemEntry(<spartanshields:shield_basic_wood>, 6, 1, [Functions.setCount(1, 1)], []);
 	thp1.addItemEntry(<minecraft:arrow>, 40, 1, [Functions.setCount(2, 8)], []);
 	thp1.addItemEntry(<thermalfoundation:material:129>, 40, 1, [Functions.setCount(1, 3)], []);
@@ -373,7 +371,6 @@ function populate(lootTable as LootTable, tier as int, extra as bool, single as 
 	thp2.addItemEntry(<minecraft:splash_potion>.withTag({Potion: "minecraft:luck"}), 40, 1, [Functions.setCount(1, 1)], []);
 	thp2.addItemEntry(<minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}), 40, 1, [Functions.setCount(1, 1)], []);
 	thp2.addItemEntry(<minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"}), 40, 1, [Functions.setCount(1, 1)], []);
-	thp2.addItemEntry(<chiselsandbits:bitsaw_diamond>, 20, 1, [Functions.setCount(1, 1)], []);
 	thp2.addItemEntry(<hexxitgear:refresher_shard>, 20, 1, [Functions.setCount(1, 3)], []);
 	thp2.addItemEntry(<morebows:frost_bow>, 20, 1, [Functions.setCount(1, 1)], []);
 	thp2.addItemEntry(<morebows:flame_bow>, 20, 1, [Functions.setCount(1, 1)], []);
