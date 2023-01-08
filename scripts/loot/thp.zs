@@ -417,7 +417,6 @@ function populate(lootTable as LootTable, tier as int, extra as bool, single as 
 			thp3 = lootTable.addPool("thp3", 2, 3, 0, 0);
 		}
 		// Add rare tier items
-		thp3.addItemEntry(<quark:ender_watcher>, 20, 1, [Functions.setCount(1, 1)], []);
 		thp3.addItemEntry(<xreliquary:fertile_lilypad>, 40, 1, [Functions.setCount(1, 1)], []);
 		thp3.addItemEntry(<xreliquary:glowing_bread>, 40, 1, [Functions.setCount(1, 1)], []);
 		thp3.addItemEntry(<xreliquary:emperor_chalice>, 30, 1, [Functions.setCount(1, 1)], []);

@@ -792,7 +792,6 @@ quark:sugar_block
 quark:redstone_randomizer
 quark:iron_button
 quark:gold_button
-quark:ender_watcher
 quark:iron_rod
 quark:color_slime
 quark:gravisand

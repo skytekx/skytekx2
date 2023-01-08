@@ -3043,7 +3043,6 @@ quark:elder_prismarine_2
 quark:elder_sea_lantern
 quark:biome_cobblestone
 quark:redstone_randomizer
-quark:ender_watcher
 quark:slime
 quark:color_slime
 quark:color_slime_1

@@ -1158,7 +1158,6 @@ quark:end_bricks_slab
 quark:end_bricks_slab_double
 quark:end_bricks_stairs
 quark:end_bricks_wall
-quark:ender_watcher
 quark:fire_stone_brick_slab
 quark:fire_stone_brick_slab_double
 quark:fire_stone_brick_stairs
@@ -3808,7 +3807,6 @@ quark:elder_sea_lantern
 quark:end_bricks_slab
 quark:end_bricks_stairs
 quark:end_bricks_wall
-quark:ender_watcher
 quark:enderdragon_scale
 quark:fire_stone_brick_slab
 quark:fire_stone_brick_stairs

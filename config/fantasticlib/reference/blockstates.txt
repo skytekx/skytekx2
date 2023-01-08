@@ -4815,8 +4815,6 @@ quark:gold_button:10
 quark:gold_button:11
 quark:gold_button:12
 quark:gold_button:13
-quark:ender_watcher:0
-quark:ender_watcher:1
 quark:iron_rod:0
 quark:iron_rod:1
 quark:iron_rod:2
