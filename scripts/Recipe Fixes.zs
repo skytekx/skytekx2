@@ -9,9 +9,9 @@ recipes.addShaped(<railcraft:locomotive_electric>,
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
 
 #Bookshelf Recipe Fix
-recipes.addShaped(<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>, 
+recipes.addShaped(<minecraft:planks>, <minecraft:planks>, <minecraft:planks>, 
 <minecraft:book>, <minecraft:book>, <minecraft:book>, 
-<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>);
+<minecraft:planks>, <minecraft:planks>, <minecraft:planks>);
 
 #Skyroot Bucket Fix
 val listAllmilk = <ore:listAllmilk>;
