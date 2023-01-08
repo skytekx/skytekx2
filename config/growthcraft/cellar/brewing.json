@@ -57,7 +57,6 @@
         "pomace": 1.0,
         "ore": null,
         "comment": "Starter Culture",
-        "mod_id": "growthcraft_milk",
         "name": "starter_culture",
         "amount": 1,
         "meta": 0
@@ -70,7 +69,6 @@
       "item": {
         "ore": null,
         "comment": "Rice",
-        "mod_id": "growthcraft_rice",
         "name": "rice",
         "amount": 1,
         "meta": 0
@@ -89,7 +87,6 @@
         "pomace": 1.0,
         "ore": null,
         "comment": "Cooked Rice",
-        "mod_id": "growthcraft_rice",
         "name": "rice_cooked",
         "amount": 1,
         "meta": 0

@@ -16,7 +16,6 @@
       "output_item": {
         "ore": null,
         "comment": "Butter",
-        "mod_id": "growthcraft_milk",
         "name": "butter",
         "amount": 2,
         "meta": 0
