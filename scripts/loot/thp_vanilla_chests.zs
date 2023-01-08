@@ -19,9 +19,7 @@ scripts.loot.thp.populate(LootTweaker.getTable("minecraft:chests/woodland_mansio
 scripts.loot.thp.populate(LootTweaker.getTable("minecraft:chests/nether_bridge"), 2, false, false);
 scripts.loot.thp.populate(LootTweaker.getTable("minecraft:chests/igloo_chest"), 2, false, false);
 
-// Remove excessive  hops loot
 val simpleDungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 val abandonedMineshaft = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft");
 
-simpleDungeon.removePool("_hops:loot_table_simple_dungeon");
-abandonedMineshaft.removePool("_hops:loot_table_simple_dungeon");
+abandonedMineshaft.removePool("growthcraft_hops:loot_table_simple_dungeon");

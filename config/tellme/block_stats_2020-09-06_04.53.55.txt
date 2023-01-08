@@ -17,10 +17,6 @@
 | gravelores:gold_gravel_ore            | 2038 |    0 | Gold Gravel Ore                |       23 |
 | gravelores:iron_gravel_ore            | 2036 |    0 | Iron Gravel Ore                |       37 |
 | gravelores:tin_gravel_ore             | 2042 |    0 | Tin Gravel Ore                 |       39 |
-| :salt_ore                  | 1561 |    0 | Rock Salt Ore                  |    11341 |
-| _bees:beehive              | 1611 |    2 | Bee Hive                       |        2 |
-| _bees:beehive              | 1611 |    3 | Bee Hive                       |       10 |
-| _bees:beehive              | 1611 |    5 | Bee Hive                       |        1 |
 | hexxitgear:hexbiscus                  | 2034 |    0 | Hexbiscus                      |        7 |
 | minecraft:air                         |    0 |    0 | minecraft:air                  | 33647568 |
 | minecraft:anvil                       |  145 |    0 | Anvil                          |        1 |
