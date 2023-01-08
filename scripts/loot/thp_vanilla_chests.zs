@@ -21,5 +21,3 @@ scripts.loot.thp.populate(LootTweaker.getTable("minecraft:chests/igloo_chest"), 
 
 val simpleDungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 val abandonedMineshaft = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft");
-
-abandonedMineshaft.removePool("growthcraft_hops:loot_table_simple_dungeon");
