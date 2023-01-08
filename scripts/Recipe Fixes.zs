@@ -5,6 +5,8 @@ recipes.addShaped(<railcraft:locomotive_electric>,
 [<railcraft:charge:5>, <railcraft:battery_nickel_iron>, <railcraft:charge:5>],
 [<thermalfoundation:material:288>, <minecraft:minecart>, <thermalfoundation:material:288>]]);
 
+#Rotten Flesh to Leather Fix
+furnace.addRecipe(leather, rottenflesh);
 
 #Skyroot Bucket Fix
 val listAllmilk = <ore:listAllmilk>;
