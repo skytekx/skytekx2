@@ -51,11 +51,11 @@ mods.jei.JEI.addDescription(<cqrepoured:magic_bell>, "Sold by a strange looking 
 <betterbuilderswands:wanddiamond>.displayName = "Diamond Builder's Wand";
 
 // Fix broken names
-<pvj:juniper_pressure_plate>.displayName = "Juniper Pressure Plate";
-<pvj:cherry_blossom_pressure_plate>.displayName = "Cherry Blossom Pressure Plate";
-<pvj:jacaranda_pressure_plate>.displayName = "Jacaranda Pressure Plate";
-<pvj:ice_formation>.displayName = "Ice Formation";
-<growthcraft_cellar:cork_sapling>.displayName = "Cork Sapling";
+<:juniper_pressure_plate>.displayName = "Juniper Pressure Plate";
+<:cherry_blossom_pressure_plate>.displayName = "Cherry Blossom Pressure Plate";
+<:jacaranda_pressure_plate>.displayName = "Jacaranda Pressure Plate";
+<:ice_formation>.displayName = "Ice Formation";
+<_cellar:cork_sapling>.displayName = "Cork Sapling";
 
 // For new players
 recipes.addShapeless(<hexxitgear:hexical_essence>, [<hexxitgear:hexbiscus>]);

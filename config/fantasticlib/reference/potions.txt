@@ -44,7 +44,7 @@ tconstruct:momentum
 tconstruct:dot
 tconstruct:splinter
 conarm:superhotpotion
-growthcraft_cellar:potion.tipsy
+_cellar:potion.tipsy
 xreliquary:flight_potion
 xreliquary:pacification_potion
 xreliquary:cure_potion
