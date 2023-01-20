@@ -13,6 +13,20 @@ recipes.addShaped(<minecraft:bookshelf>,[[<minecraft:planks>, <minecraft:planks>
 [<minecraft:book>, <minecraft:book>, <minecraft:book>], 
 [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
+#Tinkers Toolkit Fixes
+recipes.addShaped(<tinkersaddons:modifier_item:1>,
+  [[null, null, null], 
+  [<minecraft:iron_block>, <tconstruct:metal:4>, <minecraft:iron_block>], 
+  [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
+recipes.addShaped(<tinkersaddons:modifier_item:1>,
+  [[null, null, null], 
+  [<tconstruct:metal:1>, <tconstruct:gold_block>, <tconstruct:metal:1>], 
+  [<tconstruct:metal:1>, <tconstruct:metal:1>, <tconstruct:metal:1>]]);
+recipes.addShaped(<tinkersaddons:modifier_item:4>,
+  [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], 
+  [<minecraft:obsidian>, <minecraft:ender_pearl>, <minecraft:obsidian>], 
+  [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
 #Skyroot Bucket Fix
 val listAllmilk = <ore:listAllmilk>;
 val milkBucket = <ore:milkBucket>;
