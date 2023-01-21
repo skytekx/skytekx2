@@ -6,6 +6,7 @@
       "output_item": {
         "ore": null,
         "comment": "Starter Culture",
+        "mod_id": "growthcraft_milk",
         "name": "starter_culture",
         "amount": 1,
         "meta": 0

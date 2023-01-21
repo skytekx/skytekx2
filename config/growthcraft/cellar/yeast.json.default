@@ -6,6 +6,7 @@
       "item": {
         "ore": null,
         "comment": "Brewers Yeast",
+        "mod_id": "growthcraft_cellar",
         "name": "yeast",
         "amount": 1,
         "meta": 0
@@ -48,6 +49,7 @@
       "item": {
         "ore": null,
         "comment": "Origin Yeast",
+        "mod_id": "growthcraft_cellar",
         "name": "yeast",
         "amount": 1,
         "meta": 3
@@ -63,6 +65,7 @@
       "item": {
         "ore": null,
         "comment": "Lager Yeast",
+        "mod_id": "growthcraft_cellar",
         "name": "yeast",
         "amount": 1,
         "meta": 1
@@ -78,6 +81,7 @@
       "item": {
         "ore": null,
         "comment": "",
+        "mod_id": "growthcraft_cellar",
         "name": "yeast",
         "amount": 1,
         "meta": 4
