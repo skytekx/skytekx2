@@ -46,13 +46,11 @@ recipes.addShapeless(<harvestcraft:freshwateritem> * 8, [<minecraft:water_bucket
 
 
 #Angel Rings Being Craftable Fix winkwink
-recipes.remove(<extrautils2:angelring:0>);
 recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring:2>);
 recipes.remove(<extrautils2:angelring:3>);
 recipes.remove(<extrautils2:angelring:4>);
 recipes.remove(<extrautils2:angelring:5>);
-<extrautils2:angelring:0>.addShiftTooltip("You can find this in dungeons as loot!");
 <extrautils2:angelring:1>.addShiftTooltip("You can find this in dungeons as loot!");
 <extrautils2:angelring:2>.addShiftTooltip("You can find this in dungeons as loot!");
 <extrautils2:angelring:3>.addShiftTooltip("You can find this in dungeons as loot!");
