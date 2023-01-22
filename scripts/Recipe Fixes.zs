@@ -13,6 +13,12 @@ recipes.addShaped(<minecraft:bookshelf>,[[<minecraft:planks>, <minecraft:planks>
 [<minecraft:book>, <minecraft:book>, <minecraft:book>], 
 [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
+#Bound Leather Recipe Fix
+recipes.addShaped(<backpack:bound_leather>,
+[[<minecraft:string>, <minecraft:string>, <minecraft:string>], 
+[<minecraft:leather>, <minecraft:string>, <minecraft:leather>], 
+[<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
+
 #Tinkers Toolkit Fixes
 recipes.addShaped(<tinkersaddons:modifier_item:1>,
   [[null, null, null], 
