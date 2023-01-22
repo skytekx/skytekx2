@@ -20,7 +20,7 @@ recipes.addShaped(<tinkersaddons:modifier_item:1>,
   [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
 recipes.addShaped(<tinkersaddons:modifier_item:1>,
   [[null, null, null], 
-  [<tconstruct:metal:1>, <tconstruct:gold_block>, <tconstruct:metal:1>], 
+  [<tconstruct:metal:1>, <minecraft:gold_block>, <tconstruct:metal:1>], 
   [<tconstruct:metal:1>, <tconstruct:metal:1>, <tconstruct:metal:1>]]);
 recipes.addShaped(<tinkersaddons:modifier_item:4>,
   [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], 
