@@ -9,7 +9,7 @@
       become: true
       shell: |
         set -ex
-        mkdir -p /opt/minecraft-server/{backup/server,build/mcrcon,server}
+        mkdir -p /opt/minecraft-server/{backup/skytekx2-server/world,build/mcrcon,server}
     - name: Git clone mcrcon
       become: true
       ansible.builtin.git:
@@ -59,3 +59,47 @@
         state: started
         enabled: yes
         name: skytekx2
+    - name: Create a symbolic link for systemd service mwbackup
+      become: true
+      file:
+        src: /opt/minecraft-server/server/skytekx2-server/systemd/mwbackup.service
+        dest: /etc/systemd/system/mwbackup.service
+        state: link
+    - name: Create a symbolic link for systemd timer mwbackup
+      become: true
+      file:
+        src: /opt/minecraft-server/server/skytekx2-server/systemd/mwbackup.timer
+        dest: /etc/systemd/system/mwbackup.timer
+        state: link
+    - name: Force systemd to reread configs (2.4 and above)
+      become: true
+      systemd:
+        daemon_reload: yes
+    - name: Start and enable mwbackup timer
+      become: true
+      systemd:
+        state: started
+        enabled: yes
+        name: mwbackup.timer
+    - name: Create a symbolic link for systemd service gitup
+      become: true
+      file:
+        src: /opt/minecraft-server/server/skytekx2-server/systemd/gitup.service
+        dest: /etc/systemd/system/gitup.service
+        state: link
+    - name: Create a symbolic link for systemd service gitup
+      become: true
+      file:
+        src: /opt/minecraft-server/server/skytekx2-server/systemd/gitup.timer
+        dest: /etc/systemd/system/gitup.timer
+        state: link
+    - name: Force systemd to reread configs (2.4 and above)
+      become: true
+      systemd:
+        daemon_reload: yes
+    - name: Start and enable gitup timer
+      become: true
+      systemd:
+        state: started
+        enabled: yes
+        name: gitup.timer

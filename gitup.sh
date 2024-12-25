@@ -10,13 +10,15 @@ systemctl start gitup.timer
 systemctl enable gitup.timer
 
 fi
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
 
 systemctl stop skytekx2.service
 sleep 39
 cd $DIR
 git add .
 git commit -m "$(date) automated backup script (gitup.sh)"
-git push -uf origin master;
+git push -uf origin main;
 reboot
 
 exit 0
